@@ -1,6 +1,6 @@
 {
   "name": "@js-types-runtime/string",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Lightweight string type checker",
   "type": "module",
   "main": "./lib/index.js",
@@ -17,18 +17,19 @@
     "string",
     "checker",
     "validator",
-    "js-types"
+    "js-types",
+    "runtime"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/js-types-1/types.git",
-    "directory": "packages/type-string"
+    "url": "https://github.com/js-types-runtime/types.git",
+    "directory": "packages/string"
   },
   "bugs": {
-    "url": "https://github.com/js-types-1/types/issues"
+    "url": "https://github.com/js-types-runtime/types/issues"
   },
-  "homepage": "https://github.com/js-types-1/types/tree/main/packages/type-string#readme",
+  "homepage": "https://github.com/js-types-runtime/types/tree/main/packages/string#readme",
   "engines": {
     "node": ">=18"
   }
