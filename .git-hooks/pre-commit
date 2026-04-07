@@ -7,6 +7,7 @@ console.log('🚀 pre-commit hook started');
 try {
   execSync('npm run lint', { stdio: 'inherit' });
   execSync('npm run test', { stdio: 'inherit' });
+
   console.log('✅ pre-commit passed');
 } catch (error) {
   console.error('❌ pre-commit failed');
