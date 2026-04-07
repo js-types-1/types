@@ -1,6 +1,6 @@
 {
-  "name": "@js-types-1/string",
-  "version": "1.0.0",
+  "name": "@js-types-runtime/string",
+  "version": "1.0.1",
   "description": "Lightweight string type checker",
   "type": "module",
   "main": "./lib/index.js",
