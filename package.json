@@ -5,6 +5,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "prepare": "node tools/git-hooks/index.js",
     "test": "node --test",
