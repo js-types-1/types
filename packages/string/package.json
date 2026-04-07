@@ -1,6 +1,6 @@
 {
   "name": "@js-types-runtime/string",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Lightweight string type checker",
   "type": "module",
   "main": "./lib/index.js",
@@ -32,5 +32,8 @@
   "homepage": "https://github.com/js-types-runtime/types/tree/main/packages/string#readme",
   "engines": {
     "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
