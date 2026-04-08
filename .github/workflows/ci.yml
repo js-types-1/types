@@ -1,0 +1,22 @@
+{
+  'name': 'js-types-runtime-monorepo',
+  'private': true,
+  'type': 'module',
+  'workspaces': ['packages/*'],
+  'publishConfig': { 'access': 'public' },
+  'scripts':
+    {
+      'prepare': 'node tools/git-hooks/index.js',
+      'test': 'node --test',
+      'lint': 'prettier -c . && eslint .',
+      'fix': 'prettier --write . && eslint . --fix',
+      'check:fast': 'npm run lint',
+      'check': 'npm run check:fast && npm run test',
+    },
+  'devDependencies':
+    {
+      'eslint': '^9.39.2',
+      'eslint-config-metarhia': '^9.1.5',
+      'prettier': '^3.8.1',
+    },
+}
