@@ -1,5 +1,6 @@
-#git-hooks 
+# Ignore Git hooks folder (auto-generated)
 .git-hooks/
+
 # Logs
 logs
 *.log
